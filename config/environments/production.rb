@@ -14,7 +14,7 @@ Rails.application.configure do
     :address   => 'smtp.resend.com',
     :port      => 465,
     :user_name => ENV["SMTP_USERNAME"],
-    :password  => ENV['RESEND_API_KEY'],
+    :password  => ENV['SMTP_PASSWORD'],
     :tls => true
   }
 
