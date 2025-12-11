@@ -9,4 +9,3 @@ class EmailDeliveryLogger
 end
 
 ActionMailer::Base.register_observer(EmailDeliveryLogger)
-
